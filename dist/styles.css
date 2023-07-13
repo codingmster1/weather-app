@@ -112,8 +112,9 @@ body
   }
   .info div {
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 5px;
     max-width: 500px;
+    padding: 1px;
   }
   .info h2 {
     font-weight: bold;
