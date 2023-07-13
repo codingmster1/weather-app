@@ -52,7 +52,7 @@
         document.body.style.backgroundImage = 'url("assets/ootclearsky.gif")';
         break;
       case 'Clouds':
-        document.body.style.backgroundImage = 'url("assets/cloudy.gif")';
+        document.body.style.backgroundImage = 'url("assets/scatteredclouds.gif")';
         break;
       case 'Rain':
       case 'Drizzle':
