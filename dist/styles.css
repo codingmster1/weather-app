@@ -98,13 +98,15 @@ body
 
 
   .split {
-    height: 120%;
+    height: 100%;
     width: 50%;
-    position: fixed;
+    position:relative;
     z-index: 1;
     top: 0;
     overflow-x: hidden;
-    display: block;
+    display: inline-block;
+    height: 500px;
+    width: 380px;
   }
 
   .info {
@@ -252,6 +254,16 @@ body
     font-size: 12px;
     font-weight: bold;
     text-shadow: none;
+  }
+
+
+  @media (max-width: 490px)
+  {
+    .body
+    {
+     
+      flex-direction: column;
+    }
   }
 
 
